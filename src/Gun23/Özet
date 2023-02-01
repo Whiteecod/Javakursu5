@@ -1,0 +1,33 @@
+ int[]
+ index var
+ fori - kullanılıyor ( Sıra garanti çünkü indexe göre gidiyor )
+ foreach - Kullanılıyor fakat ( Sıra garanti değil )
+
+ ArrayList
+ index var (get(i)) - olarak alınıyor çünkü
+ fori - kullanılıyor ( Sıra garanti çünkü indexe göre gider )
+ foreach - kullanılıyor ( Sıra garanti değil )
+
+SET'lerde
+index YOK
+fori YOK
+foreach VAR ( ama sıra garanti değil )
+Garanti istiyor ise ne yapılacak - ITERATÖR yöntemi ----
+
+Bugün SET LERİ öğrendik
+Yarın Map LERİ öğreneceğiz
+
+perşembe günü otobanda yeni şerite geçiyoruz
+Bu şerit TASARIM şeridi.
+Burada kendi özel değişkenlerimizi kendimiz tanımlayacağız
+Öğrenci
+Adı         -> öğrenci.adı
+Soyadı      -> öğrenci.soyadı
+Numarası    -> öğrenci.numarası
+Dersleri    -> öğrenci.dersleri
+
+YAZILIMCILARIN ŞERİTİ -
+5 HAFTALIK BİR ŞERİT
+-> sonrasında Testint Toollara başlanacak -> 12 hafta sürecek
+-> 12 hafta sonra -> SDET
+
